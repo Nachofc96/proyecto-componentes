@@ -1,86 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jose Ignacio Ferreyra Cornejo">
+    <meta name="description" content="venta de componentes de pc">
     <title>PC COMPONENTES</title>
     <script src="https://kit.fontawesome.com/fa18a1cb02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li>LOGO</li>
-                <li><h1> PC COMPONENTES </h1></li>
+                <li>
+                    <a href="#"><img src="./img/logo_.jpg" width="75" alt="logo"></a>
+                </li>
+                <li>
+                    <h1> PC COMPONENTES </h1>
+                </li>
                 <li>
                     <form>
-                    <input type="search" placeholder="Search...">
-                    <button type="submit">Search</button>
-                  </form>
+                        <input type="search" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form>
                 </li>
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li><i class="fa-regular fa-user"></i></li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-2xl fa-cart-shopping"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-2xl fa-user"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
-        
-        <nav>
+
+        <nav class="menu">
             <ul>
-                <li>Productos</li>
-                <li>Marcas</li>
-                <li>Stock</li>
-                <li>Arma tu Pc</li>
+                <li> <a href="#">Productos</a> </li>
+                <li> <a href="#">Marcas</a> </li>
+                <li> <a href="#">Stock</a> </li>
+                <li> <a href="#">Arma tu pc</a> </li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
-            <img src="./img/Placeholder_view_vector.svg.png" width="200" alt="">
-        
+        <div class="img-carrusel">
+
         </div>
-        
-        <div>
-            <div>
-                <img src="./img/Placeholder_view_vector.svg.png" width="200" alt="">
+
+        <div class="lanzamiento">
+            <div class="img-lanz">
+                <img src="./img/2.png" alt="ultlanzamiento">
                 <p> Ultimos Lanzamientos </p>
             </div>
-            <div>
-                <img src="./img/Placeholder_view_vector.svg.png" width="200" alt="">
+            <div class="img-lanz">
+                <img src="./img/3.png" alt="masdestacado">
                 <p> Mas Destacados </p>
             </div>
         </div>
 
-        <div>
-            <div>
-                <img src="./img/Placeholder_view_vector.svg.png" width="200" alt="">
-                <h2>Titulo</h2>
-                <p>Subtitulo</p>
-        
+        <div class="carousel">
+            <div class="img-carousel">
+
             </div>
-            <div>
-                <img src="./img/Placeholder_view_vector.svg.png" width="200" alt="">
-                <h2>Titulo</h2>
-                <p>Subtitulo</p>
-                
-            </div>
+            <h2>Sponsors oficiales</h2>
+            <p>Corsair llego para quedarse por mucho tiempo...</p>
         </div>
-    </main> 
+
+    </main>
     <footer>
-        <div>
-            <h3>Quienes somos?</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam voluptates, cumque laborum, voluptatibus aliquam consequuntur magni, sed culpa doloremque tenetur veritatis sunt quaerat possimus dolores expedita. Ducimus soluta cum praesentium!</p>
-            <h4>Redes sociales     
-            </h4>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-regular fa-envelope"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-sharp fa-solid fa-qrcode"></i>
+        <div class="fila">
+            <div class="columna">
+                <h3>Quienes somos?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam voluptates, cumque
+                    laborum, voluptatibus
+                    aliquam consequuntur magni, sed culpa doloremque tenetur veritatis sunt quaerat possimus dolores
+                    expedita. Ducimus soluta cum praesentium!</p>
+            </div>
+
+            <div class="columna">
+                <div class="footer-redes">
+                    <h3>Redes sociales</h3>
+                    <div class="fila">
+                        <div class="columna">
+                            <a href="http://www.facebook.com">
+                                <i class="fa-brands fa-2xl fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="columna">
+                            <a href="http://www.instagram.com">
+                                <i class="fa-brands fa-2xl fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="columna">
+                            <a href="https://web.whatsapp.com/">
+                                <i class="fa-brands fa-2xl fa-whatsapp"></i>
+                            </a>
+                        </div>
+                        <div class="columna">
+                            <a href="https://www.hotmail.com">
+                                <i class="fa-regular fa-2xl fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="fila margen">
+                        <div class="columna">
+                            <i class="fa-solid fa-2xl fa-star"></i>
+                        </div>
+                        <div class="columna">
+                            <i class="fa-solid fa-2xl fa-star"></i>
+                        </div>
+                        <div class="columna">
+                            <i class="fa-solid fa-2xl fa-star"></i>
+                        </div>
+                        <div class="columna">
+                            <i class="fa-solid fa-2xl fa-star"></i>
+                        </div>
+                        <div class="columna">
+                            <i class="fa-regular fa-2xl fa-star"></i>
+                        </div>
+                        <div class="columna">
+                            <i class="fa-sharp fa-solid fa-2xl fa-qrcode"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
